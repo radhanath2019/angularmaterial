@@ -39,7 +39,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatIconModule,
     MatSnackBarModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
    
   ],
   providers: [],
