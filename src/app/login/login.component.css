@@ -1,7 +1,7 @@
 .example-card {
-    max-width: 400px;
+     max-width: 100%; /* //change max-width to change the imagesize */
   }
-  
+
   .example-header-image {
     background-image:('assets/thor2.jpg');
     background-size: cover;
