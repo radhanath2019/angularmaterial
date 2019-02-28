@@ -44,8 +44,8 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
+    <button mat-raised-button color="primary">Like</button>
+    <button mat-raised-button color="primary">Share</button>
   </mat-card-actions>
 </mat-card>
 
@@ -55,17 +55,27 @@
     <h1>Login</h1>
   </div>
   <div class="login-form">
-    <!-- <h3>Username:</h3> -->
-    <!-- <input type="" placeholder="Username"/><br> -->
-    <mat-form-field>
+     <!-- <h3>Username:</h3>  -->
+    <!-- <input type="" placeholder="Username"/><br> //html code for username -->
+
+    <!-- <mat-form-field>
       <input matInput value="Username" placeholder="Username">
+    </mat-form-field> //angular code for normal UserName -->
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="userame"></textarea>
     </mat-form-field>
+
     <br>
     <!-- <h3>Password:</h3> -->
-    <!-- <input type="password" placeholder="Password"/> -->
-    <mat-form-field>
+    <!-- <input type="password" placeholder="Password"/>html code -->
+    <!-- <mat-form-field>
       <input matInput value="Password" placeholder="password">
+    </mat-form-field> angular code for normal password-->
+
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="password"></textarea>
     </mat-form-field>
+
     <br>
         <button mat-raised-button color="primary"><a>Login</a></button>
     <!-- <input type="button" value="Login" class="login-button"/> -->
